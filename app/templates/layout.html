@@ -21,20 +21,23 @@
     <!-- https://favicon.io/emoji-favicons/money-bag/ -->
     <link href="/static/favicon.ico" rel="icon" />
 
+    <!-- Use Playfair Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wdth,wght@1,5..1200,105,300..900&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="{{ url_for('static', filename='styles.css') }}"
     />
 
-    <title>TRUMPdemic: {% block title %}{% endblock %}</title>
+    <title>Limitless: {% block title %}{% endblock %}</title>
   </head>
 
   <body>
     <nav class="bg-primary-subtle border navbar navbar-expand-md navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="/"
-          ><span class="red">T</span><span class="white">R</span
-          ><span class="blue">U</span><span class="red">M</span><span class="white">P</span><span class="blue">demic</span><span class="red">.us</span></a
+          ><span class="blue playfair-navbar-brand">Limitless Lists</span></a
         >
         <button
           aria-controls="navbar"

@@ -19,3 +19,12 @@ nav .navbar-brand .yellow {
 nav .navbar-brand .white {
   color: #ffffff;
 }
+
+.playfair-navbar-brand {
+  font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 105;
+}
