@@ -6,13 +6,13 @@ main_blueprint = Blueprint('main', __name__)
 def home():
     return render_template('index.html')
 
-@main_blueprint.route('/lies')
-def lies():
-    return render_template('index.html')
+@main_blueprint.route('/map')
+def map():
+    return render_template('map.html')
 
-@main_blueprint.route('/deception')
-def deception():
-    return render_template('deception.html')
+@main_blueprint.route('/create')
+def create():
+    return render_template('create.html')
 
 @main_blueprint.route('/about')
 def about():

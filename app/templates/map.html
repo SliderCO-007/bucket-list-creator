@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Maps
+{% endblock %}
+
+{% block main %}
+<div class="col-8 col-sm-6 mx-auto">
+  <img src="{{ url_for('static', filename='images/world-map.png') }}"
+    class="rounded mx-auto d-block img-fluid" alt="World Map" />
+</div>
+<h1>Welcome to the map page!</h1>
+
+{% endblock %}
